@@ -1,9 +1,11 @@
-**Para correr los ejecrcios se necesita tener instalado "Node" en el equipo
+## Ejemplo Javascript
 
-**En el terminal ejecutar el comando: npm run dev
+======================
 
+- Para correr los ejercicios se necesita tener instalado Node en el equipo
+- En el terminal ejecutar el comando: npm run dev
 
-consulta:
+- consulta:
 {
   authors{
     id
