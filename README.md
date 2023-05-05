@@ -1,6 +1,7 @@
 # Ejemplo en Python
 
-- cd GRAPHQL-example-Student
+*Ingresar a la carpeta*
+cd GRAPHQL-example-Student
 
 *Instalar* paquetes
 pip install flask flask-graphql graphene graphene-sqlalchemy flask-sqlalchemy
