@@ -1,19 +1,19 @@
 # Ejemplo en Python
 
-*Ingresar a la carpeta*
+*Ingresar a la carpeta:*
 cd GRAPHQL-example-Student
 
-*Instalar* paquetes
+*Instalar* paquetes:
 pip install flask flask-graphql graphene graphene-sqlalchemy flask-sqlalchemy
 
-*Ejecutar* el codigo
+*Ejecutar* el codigo:
 python app.py
 
 abrir la siguiente direccion
 http://127.0.0.1:5000/graphql
 
 *Ejemplos:*
-*Listar* todos los elementos
+*Listar* todos los elementos:
 query{
    users{
      id
@@ -25,7 +25,7 @@ query{
    }
 }
 
-*Listar* por id
+*Listar* por id:
 query{
    users(id:1){
      id
@@ -37,7 +37,7 @@ query{
    }
 }
 
-*Ingreso* de datos
+*Ingreso* de datos:
 mutation{
    createStudent(name:"Caroline",lastname:"Lucas",age:22,email:"carolineliseth18@gmail.com"){
      user{
@@ -51,7 +51,7 @@ mutation{
    }
 }
 
-*Actualización* de datos
+*Actualización* de datos:
 mutation{
    updateStudent(id:2,name:"Josthen",lastname:"Avila",age:24,email:"josavi@gmail.com"){
      user{
@@ -64,7 +64,7 @@ mutation{
    }
 }
 
-*Eliminación* de los datos
+*Eliminación* de los datos:
 mutation{
    deleteStudent(id:2){
      success
