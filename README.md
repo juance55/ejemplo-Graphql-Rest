@@ -4,8 +4,8 @@
 
 - Para correr los ejercicios se necesita tener instalado Node en el equipo
 - En el terminal ejecutar el comando: 
-    cd ejemplo-Graphql
-    npm run dev
+    - cd ejemplo-Graphql
+    - npm run dev
 
 - consulta:
 {
