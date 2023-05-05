@@ -1,6 +1,6 @@
 export const authors = [
   {
-    id: "1",
+    id: '1',
     name: "Issac Asimov"
   },
   {
